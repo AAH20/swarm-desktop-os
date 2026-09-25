@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "swarm-desktop-os"
+version = "1.0.0"
+description = "Multi-Agent Collaborative Virtual OS Multiplexer for Swarm Computer-Use"
+authors = [{ name = "AAH20", email = "research@aah20.dev" }]
+license = { text = "Apache-2.0" }
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+swarm-desktop-os = "swarm_desktop_os.cli:main"
